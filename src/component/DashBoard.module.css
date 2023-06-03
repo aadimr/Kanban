@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.dash_div {
+  background-image: url("https://e0.pxfuel.com/wallpapers/356/696/desktop-wallpaper-plain-background-awesome-black-windows-10.jpg");
+  min-height: 100vh;
+  object-fit: contain;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: -1;
+}
+
+.dash_div h1 {
+  color: white;
+}
+.dash_containor{
+    /* border: 2px red solid; */
+    max-width: 1650px;
+    overflow: hidden;
+    overflow-x: scroll;
+    min-height: 500px;
+    padding: 2rem 1rem;
+    color: whitesmoke;
+    display: flex;
+    z-index: 9999;
+
+}
+.dash_containor::-webkit-scrollbar {
+  display: none;
+}
+
+.addbtn {
+  border-radius: 10px !important;
+  min-width: 15vw !important;
+  height: 7vh;
+  color: #0b0d12 !important;
+  text-transform: initial !important;
+  background-color: rgba(243, 243, 243, 0.461) !important;
+}
+
+.addbtn:hover {
+  background-color: rgba(174, 163, 163, 0.139) !important;
+  color: white !important;
+}
+
+.addList_div {
+  background-color: #ebecf0;
+  min-width: 15vw;
+  height: 90px;
+  border-radius: 10px;
+  padding: 10px 1rem;
+  z-index: 9999 !important;
+}
+
+.addList_div input {
+  height: 30px;
+  padding: 10px 10px;
+  font-size: large;
+  border-radius: 5px;
+  z-index: auto;
+}
+
+.crossbtn {
+  margin: 10px 0;
+  display: flex;
+  z-index: 9999;
+}
+
+.list_container {
+  display: flex;
+  margin-right: 20px;
+  gap: 20px;
+  z-index: 9999;
+}
+
+.list_card {
+  width: 18vw;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #ebecf0;
+  color: black;
+  font-size: 25px;
+}
+
+.listName {
+  cursor: pointer;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cardBtn {
+  padding-bottom: 10px;
+}
+
+
+.card {
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 10px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.editInput {
+  width: 100%;
+  height: 30px;
+  font-size: large;
+}
+
+.edIcon {
+  display: flex;
+  gap: 10px;
+}
+
+.icon:hover {
+  color: red;
+  font-size: 23px;
+}
+
+.image {
+  min-height: 100vh;
+  object-fit: contain;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}

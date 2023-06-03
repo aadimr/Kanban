@@ -1,0 +1,93 @@
+.mainContainer{
+    margin-top: 1rem;
+}
+
+.reactQuill{
+    padding: 0 10px;
+    font-size: large;
+    border-radius: 10px;
+    height: 7vh;
+}
+
+.textAreaButton{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    gap: 2rem;
+}
+
+.activityDiv{
+    width: 50vw;
+    height: 6vh;
+    border-radius: .5rem;
+    display: flex;
+    padding-left: 1rem;
+    align-items: center;
+    box-shadow: var(--ds-shadow-raised, 0 1px 2px -1px rgba(9, 30, 66, 0.25), 0 0 0 1px var(--ds-border, rgba(9, 30, 66, 0.08)));
+    cursor: pointer;
+}
+
+.iconH2Button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5rem;
+}
+
+.iconeH2{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo{
+    font-size: 1.7rem;
+}
+.comments {
+    height: 6vh;
+    border-radius: .5rem;
+    display: flex;
+    padding-left: 1rem;
+    align-items: center;
+    box-shadow: var(--ds-shadow-raised, 0 1px 2px -1px rgba(9, 30, 66, 0.25), 0 0 0 1px var(--ds-border, rgba(9, 30, 66, 0.08)));
+    cursor: pointer;
+    margin-left: 2.7rem;
+    margin-top: -1rem;
+}
+.time {
+    width: 30rem;
+}
+
+.Delete {
+    display: flex;
+    gap: .6rem;
+    width: 50vw;
+    position: relative;
+    cursor: pointer;
+}
+
+.Delete:hover{
+    color: red;
+}
+
+.avatar {
+    display: flex;
+    gap: .6rem;
+}
+
+.commentAvatar {
+    display: flex;
+    gap: .6rem;
+    margin-top: 1.5rem;
+}
+
+.timeAndDelete {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+    gap: 1rem;
+}
+
+.h3 {
+    width: 15rem;
+}

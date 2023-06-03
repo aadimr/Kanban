@@ -1,0 +1,24 @@
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .img {
+    flex: 0 0 calc(33.33% - 14px); 
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .img img {
+    width: 30rem;
+    height: 20rem;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.img img:hover {
+  transform: scale(1.05);
+}
+  

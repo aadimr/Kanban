@@ -1,0 +1,37 @@
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .2rem;
+}
+
+.icon{
+    font-size: 1.3rem;
+}
+
+.titleListName{
+    display: flex;
+    flex-direction: column;
+}
+
+.iconH2{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.p{
+    padding-left: 2.8rem;
+}
+
+.cross{
+    position: absolute !important;
+    right: 20px !important;
+    margin-right: auto !important;
+    display: flex;
+    align-items: center;
+    background: round;
+}
+.titleName{
+    text-decoration: underline;
+}

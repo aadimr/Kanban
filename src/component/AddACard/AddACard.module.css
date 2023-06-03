@@ -1,0 +1,35 @@
+.cards {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.card:hover{
+  background-color: aliceblue;
+  color: black;
+}
+
+.card span{
+  visibility: hidden;
+}
+
+.card span:hover{
+  color: gray;
+  visibility: visible;
+}
+
+.edIcon{
+  display: flex;
+  gap: 10px;
+}
+
+.editInput{
+  width: 100%;
+  height: 30px;
+  font-size: large;
+}
+
+.icon:hover {
+  color: red;
+  font-size: large;
+}
